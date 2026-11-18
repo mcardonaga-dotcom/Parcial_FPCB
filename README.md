@@ -1,4 +1,4 @@
-# Carga de tuberculosis en las Américas, 2000-2024: análisis exploratorio
+# Carga de tuberculosis en la región de las Américas 2000-2024: análisis exploratorio
 
 Análisis exploratorio de datos realizado con Python.
 
