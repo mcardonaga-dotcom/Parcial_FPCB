@@ -1,10 +1,10 @@
 # Carga de tuberculosis en las Américas, 2000-2024: análisis exploratorio
 
-Análisis exploratorio de datos realizado con Python (pandas, seaborn y matplotlib) para el parcial de Fundamentos de Programación para Ciencias Biológicas (UNAL Medellín).
+Análisis exploratorio de datos realizado con Python.
 
 ## El conjunto de datos
 
-- **Fuente:** *WHO TB burden estimates*, Programa Mundial de Tuberculosis de la Organización Mundial de la Salud (OMS). Descargado el 12 de noviembre de 2026 desde <https://www.who.int/teams/global-tuberculosis-programme/data> (pestaña *CSV files*).
+- **Fuente:** *WHO TB burden estimates*, Programa Mundial de Tuberculosis de la Organización Mundial de la Salud (OMS). Descargado el 12 de noviembre de 2026 desde <https://www.who.int/teams/global-tuberculosis-programme/data> (en la pestaña *CSV files*).
 - **Licencia:** el uso de los datos está sujeto a la [política de datos](https://www.who.int/about/policies/publishing/data-policy) y a los términos y condiciones de la OMS.
 - **Contenido:** estimaciones de incidencia, mortalidad (con y sin VIH), letalidad y tasa de detección de casos, con sus intervalos de incertidumbre, para cada país y año.
 - **Tamaño:** el archivo original tiene 5.347 registros y 50 columnas (217 países y territorios). Se filtró la región de las Américas: **1.115 registros de 46 países y territorios**. Tras la limpieza quedaron 17 columnas, más 3 variables derivadas (subregión, periodo y nivel de incidencia).
@@ -76,7 +76,3 @@ Las primeras versiones de algunas figuras, que se descartaron durante el anális
    jupyter notebook Parcial.ipynb
    ```
    El cuaderno genera el conjunto limpio en `datos/` y las figuras en `figuras/`.
-
-## Uso de inteligencia artificial
-
-Se usó Claude (Anthropic) como apoyo para buscar el conjunto de datos, escribir y explicar el código, redactar borradores de los textos y armar este cuaderno y este README. Los datos se descargaron, el código se ejecutó y los resultados se verificaron por la autora.
